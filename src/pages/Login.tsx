@@ -1,6 +1,5 @@
 import { Visibility, VisibilityOff } from "@mui/icons-material";
 import { Sheet, Box, Typography, Divider, Button, FormControl, FormLabel, Input, useTheme, Link } from "@mui/joy";
-// import { Link } from "react-router-dom";
 import GoogleIcon from "../components/GoogleIcon";
 import { useState } from "react";
 
@@ -12,7 +11,7 @@ const LoginPage = () => {
 
     const [toggleVisibility, setToggleVisibility] = useState<boolean>(true);
 
-    const handleToggle = (event: React.MouseEvent) => {
+    const handleToggle = () => {
         setToggleVisibility(!toggleVisibility);
     }
 

@@ -5,7 +5,6 @@ import { CssBaseline, CssVarsProvider, extendTheme } from '@mui/joy'
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
 import HomePage from './pages/Home'
 import LoginPage from './pages/Login'
-import { Login } from '@mui/icons-material'
 
 const theme = extendTheme({
   "colorSchemes": {
